@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="./estilo.css">
+       <title>Pokedex JS</title>
+   </head>
+   <body>
+       <section>
+           <div class="ladoI">
+            <h1>Pokedex JS</h1>
+            <img class="imagen" src="./poke.png" alt="Pokemon" id="pokeImg" name="pokeImg" width="265px" height="265px"><br>
+            <input class="caja" type="text" placeholder="Nombre Pokemon / Id" id="pokeName" name="pokeName"><br>
+            <button class="boton" onclick="fetchPokemon()">Buscar Pokemon</button>
+           </div>
+           <div class="ladoD">
+            <h3>Información</h3>
+            <div id="pokeNombre">...</div>
+            <div id="idTipo">...</div>
+            <div id="idPeso">...</div>
+            <div id="idMoves">...</div>
+            <h3>Estadísticas</h3>
+            <div id="idHp">...</div>
+            <div id="idAtt">...</div>
+            <div id="idDef">...</div>
+            <div id="idSa">...</div>
+            <div id="idSd">...</div>
+            <div id="idSpe">...</div>
+           </div>
+       </section>
+   </body>
+   <footer>
+       <script src="./poke.js"></script>
+   </footer>
+</html>

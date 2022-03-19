@@ -1,0 +1,75 @@
+*{
+    font-family: 'Courier', Courier New, monospace;
+}
+
+body{
+    background-color: #2a5792;
+}
+
+section{
+    background-image: url(./pokedexbacweb.png);
+    background-repeat: no-repeat;
+    height: 672px;
+    margin: 220px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 100px;
+}
+
+.ladoI{
+    padding: 10px;
+    width: 420px;
+    position: absolute;
+    top: 25%;
+    left: 19%;
+}
+
+.ladoD{
+    background-color: beige;
+    padding: 10px;
+    border-radius: 10px;
+    width: 420px;
+    position: absolute;
+    top: 39%;
+    right: 17%;
+}
+
+h1, h2, h3{
+    background-color: rgb(70, 70, 70);
+    font-size: 28px;
+    color: gold;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.imagen{
+    background-color: #55ab62;
+    border-radius: 10px;
+    position: relative;
+    left: 19%;
+}
+
+.caja{
+    height: 20px;
+    width: 195px;
+    position: relative;
+    left: 24%;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.boton{
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    background-color: #095378;
+    font-size: 18px;
+    font-weight: bold;
+    color: gold;
+    border-radius: 10px;
+    position: relative;
+    left: 27%;
+    
+}
